@@ -656,7 +656,7 @@ a:active {
   text-decoration: none;
   top: 5px;
   width: auto;
-  z-index: 100000;
+  z-index: 6;
   /* Above WP toolbar. */
 }
 
@@ -974,6 +974,7 @@ body {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
+  padding-right: 40px;
 }
 
 /*==========Navigation section open=================*/
@@ -1080,7 +1081,7 @@ body {
 .site-header .container {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1102,7 +1103,7 @@ body {
 
 .site-header {
   width: 100%;
-  z-index: 99999;
+  z-index: 5;
   position: absolute;
   top: 0;
   background-color: transparent;
@@ -1268,7 +1269,7 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 99999;
+  z-index: 5;
   -webkit-transform: translateY(30px);
   -moz-transform: translateY(30px);
   -ms-transform: translateY(30px);
@@ -1327,7 +1328,7 @@ body {
   ul.sub-menu {
   left: -100%;
   top: 0;
-  z-index: 99999;
+  z-index: 5;
   visibility: hidden;
   opacity: 0;
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
@@ -1521,7 +1522,7 @@ body {
   text-align: left;
   top: 52%;
   left: 0;
-  z-index: 99;
+  z-index: 2;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -1601,11 +1602,11 @@ body {
   position: absolute;
   bottom: 10%;
   right: 7%;
-  z-index: 999;
+  z-index: 4;
 }
 
 .slider-down-btn a {
-  z-index: 99;
+  z-index: 2;
 }
 
 #plx-slider-section .owl-nav .owl-prev,
@@ -3049,7 +3050,7 @@ body {
 #plx_contact_section .contact-us-section-wrap {
   margin-top: -200px !important;
   position: relative;
-  z-index: 666;
+  z-index: 3;
 }
 
 /*------footer-----*/
