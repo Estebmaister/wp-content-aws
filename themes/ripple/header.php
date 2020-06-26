@@ -23,7 +23,7 @@
         <?php  
             $ripple_disp_parallax_menu = absint(get_theme_mod('ripple_disp_parallax_menu', 0));
         ?> 
-        <?php // echo do_shortcode('[prisna-google-website-translator]'); ?>
+        <?php echo do_shortcode('[prisna-google-website-translator]'); ?>
         <div id="page" class="hfeed site">
             <header id="masthead" class="site-header" role="banner">
 
