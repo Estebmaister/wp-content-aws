@@ -4025,6 +4025,13 @@ ol.comment-list {
 }
 
 /* Uncomment php in header.php */
+
+@media screen and (max-width: 600px) {
+  #wpadminbar {
+    position: fixed;
+  }
+}
+
 .prisna-gwt-align-left {
   display: none;
 }
