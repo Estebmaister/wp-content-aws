@@ -4048,9 +4048,10 @@ ol.comment-list {
 body {
   top: 0 !important;
 }
-/* .site-header {
-    top: 15px !important;
-  }
+.site-header {
+  top: 15px !important;
+}
+/*
   .scrollActive .site-header {
     top: 0 !important;
   } */
