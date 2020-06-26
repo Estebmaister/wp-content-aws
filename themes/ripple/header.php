@@ -22,7 +22,7 @@
         <!-- WhatsApp Description -->
         <meta property="og:title" content="WordPress template" />
         <meta property="og:description" content="WordPress Ripple theme edited by Estebmaister" />
-        <meta property="og:image" content="https://estebmaister.com.ve/assets/images/profile.png" />
+        <meta property="og:image" content="https://s.w.org/images/home/screen-themes.png?3" />
         <meta property="og:url" content="http://estebmaister.com.ve/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="wp ripple" />
